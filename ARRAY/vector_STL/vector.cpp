@@ -23,5 +23,20 @@ int main()
     
     // update value 
     v[1] = 90 ; 
-     
+
+
+    // delete value from vector 
+    vector<int>a ; 
+    a.push_back(1) ; 
+    a.push_back(12) ; 
+    a.push_back(13) ; 
+    a.push_back(15) ; 
+    a.push_back(17) ; 
+    a.pop_back() ; 
+    cout << " size of a vecotr : " << a.size() << endl ; 
+    cout << "capacity of a vector : " << a.capacity() << endl ; 
+    a.erase(a.begin()+1) ;  // removed value at index 1 
+    for(int i =0 ; i< a.size() ; i++) 
+        cout << a[i]  << " "; 
+    cout << endl ; 
 }
