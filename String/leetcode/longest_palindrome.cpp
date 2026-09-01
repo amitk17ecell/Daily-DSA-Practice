@@ -1,3 +1,7 @@
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std ;
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -22,3 +26,7 @@ public:
         return length;
     }
 };
+int main()
+{
+    return 0;
+}
