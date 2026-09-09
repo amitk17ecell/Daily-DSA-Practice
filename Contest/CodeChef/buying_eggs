@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int X, Y , F ; 
+    cin >> X >> Y >> F ; 
+    int shopA = X*12 ; 
+    int shopB = Y*12 + F ; 
+    if(shopA > shopB)
+      cout << shopB;
+    else 
+       cout << shopA ; 
+    return 0 ; 
+}
